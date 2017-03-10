@@ -1,0 +1,64 @@
+{
+  "contract_name": "Login",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "challenge",
+          "type": "string"
+        }
+      ],
+      "name": "login",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "challenge",
+          "type": "string"
+        }
+      ],
+      "name": "LoginAttempt",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b610183806100196000396000f300606060405263ffffffff60e060020a6000350416633a7d280c8114610024575b610000565b3461000057610077600480803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284375094965061007995505050505050565b005b7fdeb017956c894eba079e6a630f5cfec256256dc05616ad89f1eb825abef459633382604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001828103825283818151815260200191508051906020019080838360008314610119575b80518252602083111561011957601f1990920191602091820191016100f9565b505050905090810190601f1680156101455780820380516001836020036101000a031916815260200191505b50935050505060405180910390a15b505600a165627a7a72305820a880e3f53845779e654275b1d8448af872c63b5480c9af30ba4c4efedd16e6620029",
+  "networks": {
+    "1": {
+      "events": {
+        "0xdeb017956c894eba079e6a630f5cfec256256dc05616ad89f1eb825abef45963": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "sender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "challenge",
+              "type": "string"
+            }
+          ],
+          "name": "LoginAttempt",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xf7b06365e9012592c8c136b71c7a2475c7a94d71",
+      "updated_at": 1489005395303
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1489005395303
+}
